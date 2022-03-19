@@ -157,7 +157,7 @@ static Key keys[] = {
     { MODKEY|ShiftMask,		  XK_Tab,         spawn,            SHCMD("") },
     { MODKEY,			          XK_q,           killclient,       {0} },
     { MODKEY,			          XK_w,           spawn,            SHCMD("firefox") },
-    { MODKEY,			          XK_o,           spawn,            { SHCMD("Obsidian.md") },
+    { MODKEY,			          XK_o,           spawn,            SHCMD("Obsidian.md") },
     { MODKEY|ShiftMask,		  XK_w,           spawn,            SHCMD(TERMINAL " -e sudo nmtui") },
     { MODKEY,			          XK_t,           setlayout,        {.v = &layouts[0]} }, /* tile */
     { MODKEY|ShiftMask,		  XK_t,           setlayout,        {.v = &layouts[1]} }, /* bstack */
